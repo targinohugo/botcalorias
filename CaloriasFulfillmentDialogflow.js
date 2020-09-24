@@ -19,7 +19,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   }
 
     function Calorias(agent) {
-  	var cal = (agent.parameters.peso*10);
+   	var cal = (agent.parameters.peso*10);
     var cal2 = (agent.parameters.altura*6.25);
     var cal3 = (agent.parameters.idade*5);
     var cal4 = (agent.parameters.sexo);
