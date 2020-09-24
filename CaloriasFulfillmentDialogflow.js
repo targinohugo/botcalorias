@@ -43,8 +43,6 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
             "Nível 5: Atletas:" + " " + parseInt(basal) + "x1,9" + " " + "=" + " " + parseInt(basal*1.9) + " " + "calorias" + "  \n"  + "  \n" +
             "Caso você queira mais informações sobre como o cálculo foi realizado, digite 'detalhes' ");  
 
-    
-    
   }
   
   let intentMap = new Map();
