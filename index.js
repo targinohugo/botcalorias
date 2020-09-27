@@ -42,7 +42,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
             "Nível 4: Exercícios de 6 a 7 dias na semana:" + " " + parseInt(basal) + "x1,75" + " " + "=" + " " + parseInt(basal*1.725) + " " + "calorias" + "  \n" + 
             "Nível 5: Atletas:" + " " + parseInt(basal) + "x1,9" + " " + "=" + " " + parseInt(basal*1.9) + " " + "calorias" + "  \n"  + "  \n" +
             "Caso você queira mais informações sobre como o cálculo foi realizado, digite 'detalhes' ");  
-
+     
   }
   
   let intentMap = new Map();
